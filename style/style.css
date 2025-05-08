@@ -48,6 +48,7 @@ section .botao {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
 }
 
 h2 a {
@@ -65,18 +66,18 @@ h2 a {
 .body-top section {
     display: flex;
     flex-direction: column;
-    width: 450px;
-    min-height: 200px;
+    max-width: 450px;
+    min-height: 400px;
     flex: 1 1 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 5px;
 }
 
 .body-top .imgCity {
     /* border: 2px solid gray; */
     /* max-width: 800px; */
-    max-height: 300px;
+    max-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +116,6 @@ h2 a {
     width: 150px;
     height: 150px;
     margin-bottom: 10px;
-
 }
 
 .subject p a {
@@ -124,5 +124,33 @@ h2 a {
 
 .links p {
     text-align: center;
-    margin-bottom: 30px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .content {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote .text {
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 400px;
+    max-height: 100px;
+    flex: 1 1 auto;
+}
+
+.quote .autor {
+    font-weight: 900;
+    align-self: flex-end;
 }
