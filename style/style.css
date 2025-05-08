@@ -73,10 +73,10 @@ h2 a {
     gap: 5px;
 }
 
-.body-top .img {
-    border: 2px solid gray;
+.body-top .imgCity {
+    /* border: 2px solid gray; */
     /* max-width: 800px; */
-    /* height: 100px; */
+    max-height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,6 +91,9 @@ h2 a {
 .info h2 {
     text-align: center;
     padding: 30px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .links {
@@ -111,6 +114,10 @@ h2 a {
     width: 150px;
     height: 150px;
     margin-bottom: 10px;
+}
+
+.subject p a {
+    color: #1f2937;
 }
 
 .links p {
