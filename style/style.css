@@ -42,7 +42,7 @@ section p {
 section .botao {
     background-color: #3882f6;
     border-radius: 5px;
-    width: 120px;
+    max-width: 120px;
     height: 30px;
     color: white;
     display: flex;
@@ -58,7 +58,7 @@ h2 a {
 .body-top {
     display: flex;
     justify-content: space-between;
-    padding: 10px 80px;
+    padding: 80px 80px;
     gap: 40px;
 }
 
@@ -82,4 +82,38 @@ h2 a {
     justify-content: center;
     background-color: lightslategray;
     flex: 0.5 1 auto;
+}
+
+.info {
+    background-color: white;
+}
+
+.info h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 80px;
+    gap: 20px;
+}
+
+.links .subject {
+    max-width: 150px;
+}
+
+.subject a .sub {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.links p {
+    text-align: center;
+    margin-bottom: 30px;
 }
