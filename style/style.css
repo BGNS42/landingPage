@@ -42,7 +42,7 @@ section p {
 section .botao {
     background-color: #3882f6;
     border-radius: 5px;
-    width: 80px;
+    width: 120px;
     height: 30px;
     color: white;
     display: flex;
@@ -53,4 +53,33 @@ section .botao {
 h2 a {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.body-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    gap: 40px;
+}
+
+.body-top section {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    min-height: 200px;
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.body-top .img {
+    border: 2px solid gray;
+    /* max-width: 800px; */
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightslategray;
+    flex: 0.5 1 auto;
 }
