@@ -213,3 +213,12 @@ h2 a {
 .botao button a {
     color: white;
 }
+
+/* ==FOOTER== */
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
