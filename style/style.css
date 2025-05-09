@@ -165,3 +165,51 @@ h2 a {
     font-weight: 900;
     align-self: flex-end;
 }
+
+/* ==CALL TO ACTION PART== */
+.bottom {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.card {
+    /* border: 2px solid black; */
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex: 0.5 1 auto;
+    /* min-width: fit-content; */
+    padding: 50px 80px;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.card .txt {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
+.card .botao {
+    align-self: flex-end;
+    flex-shrink: 0;
+}
+
+.card .botao button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 25px;
+    margin: 0 auto;
+}
+
+.botao button a {
+    color: white;
+}
