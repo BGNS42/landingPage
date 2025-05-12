@@ -18,12 +18,14 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 15px 80px;
+    gap: 20px;
 }
 
 header ul {
     display: flex;
     list-style: none;
-    gap: 22px
+    gap: 22px;
+    flex-wrap: wrap;
 }
 
 /* ==LINKS SEM DECORAÇÃO== */
@@ -49,7 +51,7 @@ section .botao {
     background-color: #3882f6;
     border-radius: 5px;
     max-width: 120px;
-    height: 30px;
+    height: 40px;
     color: white;
     display: flex;
     justify-content: center;
@@ -83,8 +85,8 @@ h2 a {
 /* ==configurando alinhamento imagem== */
 .body-top .imgCity {
     /* border: 2px solid gray; */
-    /* max-width: 800px; */
-    max-height: 400px;
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,9 +148,15 @@ h2 a {
 }
 
 .quote .content {
+    border: 2px solid green;
     display: flex;
-    flex-direction: column;
-    padding: 100px;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    width: 80%;
+    height: auto;
+    gap: 10px;
 }
 
 .quote .text {
@@ -159,6 +167,8 @@ h2 a {
     max-width: 400px;
     max-height: 100px;
     flex: 1 1 auto;
+    width: 100%;
+    height: auto;
 }
 
 .quote .autor {
